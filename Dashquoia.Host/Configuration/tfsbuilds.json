@@ -1,0 +1,18 @@
+﻿[
+  {
+    "owner": "Green team",
+    "name": "RI.Seq.Arza.MAIN.CI"
+  },
+  {
+    "owner": "Green team",
+    "name": "RI.Seq.B2B.MAIN.CI"
+  },
+  {
+    "owner": "Green team",
+    "name": "B2B.selfEmpployed.MAIN.CI"
+  },
+  {
+    "owner": "Red team",
+    "name": "RI.Seq.Arza.MAIN.CI"
+  }
+]

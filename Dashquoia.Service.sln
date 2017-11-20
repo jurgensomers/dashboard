@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dashquoia.Host", "Dashquoia.Host\Dashquoia.Host.csproj", "{B317EDC5-2374-407D-A61D-B1014FE14F11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dashquoia.Api", "Dashquoia.Api\Dashquoia.Api.csproj", "{B45839A6-AF51-475B-B89E-7275F7131925}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B317EDC5-2374-407D-A61D-B1014FE14F11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B317EDC5-2374-407D-A61D-B1014FE14F11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B317EDC5-2374-407D-A61D-B1014FE14F11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B317EDC5-2374-407D-A61D-B1014FE14F11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B45839A6-AF51-475B-B89E-7275F7131925}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B45839A6-AF51-475B-B89E-7275F7131925}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B45839A6-AF51-475B-B89E-7275F7131925}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B45839A6-AF51-475B-B89E-7275F7131925}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

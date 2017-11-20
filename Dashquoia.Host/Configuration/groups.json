@@ -1,0 +1,52 @@
+﻿[
+  {
+    "owner": "Green team",
+    "name": "B2B",
+    "services": [
+      "NisseSelfEmployedAcquittalService",
+      "NisseSelfEmployedIncomesService",
+      "NisseSelfEmployedInformationService",
+      "BusinessSelfEmployedAcquittalService",
+      "BusinessSelfEmployedIncomesService",
+      "GatewaySelfEmployedAcquittalService",
+      "GatewaySelfEmployedIncomesService",
+      "DispatcherSelfEmployedAcquittalService", 
+      "DispatcherSelfEmployedIncomesService"
+    ]
+  },
+  {
+    "owner": "Green team",
+    "name": "Servicebus",
+    "services": [
+      "BusinessSelfEmployedAcquittalService-ServiceBus",
+      "BusinessSelfEmployedIncomesService-ServiceBus"
+    ]
+  },
+  {
+    "owner": "Red team",
+    "name": "B2B",
+    "services": [
+      "NisseSelfEmployedInformationService",
+      "NisseSelfEmployedContributionService",
+      "NisseSelfEmployedAffiliationService",
+      "BusinessSelfEmployedContributionService",
+      "BusinessSelfEmployedAffiliationService",
+      "GatewaySelfEmployedContributionService",
+      "GatewaySelfEmployedAffiliationService",
+      "DispatcherSelfEmployedContributionService",
+      "DispatcherSelfEmployedAffiliationService",
+      "BusinessSelfEmployedInformationService",
+      "GatewaySelfEmployedInformationService",
+      "DispatcherSelfEmployedInformationService"
+    ]
+  },
+  {
+    "owner": "Red team",
+    "name": "Servicebus",
+    "services": [
+      "BusinessSelfEmployedContributionService-ServiceBus",
+      "BusinessSelfEmployedAffiliationService-ServiceBus",
+      "BusinessSelfEmployedInformationService-ServiceBus"
+    ]
+  }
+]

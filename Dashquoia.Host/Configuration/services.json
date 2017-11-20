@@ -1,0 +1,302 @@
+﻿[
+  {
+    "name": "NisseSelfEmployedAcquittalService",
+    "address": "SeqProxy/NisseSelfEmployedAcquittal/NisseSelfEmployedAcquittalService.svc/arza",
+    "namespace": "http://www.rsvz-inasti.fgov.be/schemas/Sequoia/WS/SelfEmployed/Nisse/Acquittal/V1",
+    "action": "http://www.rsvz-inasti.fgov.be/schemas/Sequoia/WS/SelfEmployed/Nisse/Acquittal/V1/NisseSelfEmployedAcquittalService/IsAlive",
+    "bindingtype": "customBinding",
+    "bindingname": "mtomMessageEncodingConfiguration",
+    "host": "B2B-Proxy",
+    "type": "IsAlive"
+  },
+  {
+    "name": "NisseSelfEmployedIncomesService",
+    "address": "SeqProxy/NisseSelfEmployedIncomes/NisseSelfEmployedIncomesService.svc/arza",
+    "namespace": "http://www.rsvz-inasti.fgov.be/schemas/Sequoia/WS/SelfEmployed/Nisse/Incomes/V1",
+    "action": "http://www.rsvz-inasti.fgov.be/schemas/Sequoia/WS/SelfEmployed/Nisse/Incomes/V1/NisseSelfEmployedIncomesService/IsAlive",
+    "bindingtype": "customBinding",
+    "bindingname": "textMessageEncodingConfiguration",
+    "host": "B2B-Proxy",
+    "type": "IsAlive"
+  },
+  {
+    "name": "NisseSelfEmployedInformationService",
+    "address": "SeqProxy/NisseSelfEmployedInformation/NisseSelfEmployedInformationService.svc/arza",
+    "namespace": "http://www.rsvz-inasti.fgov.be/schemas/Sequoia/WS/SelfEmployed/Nisse/Information/V1",
+    "action": "http://www.rsvz-inasti.fgov.be/schemas/Sequoia/WS/SelfEmployed/Nisse/Information/V1/NisseSelfEmployedInformationService/IsAlive",
+    "bindingtype": "customBinding",
+    "bindingname": "textMessageEncodingConfiguration",
+    "host": "B2B-Proxy",
+    "type": "IsAlive"
+  },
+  {
+    "name": "NisseSelfEmployedContributionService",
+    "address": "SeqProxy/NisseSelfEmployedContribution/NisseSelfEmployedContributionService.svc/arza",
+    "namespace": "http://www.rsvz-inasti.fgov.be/schemas/Sequoia/WS/SelfEmployed/Nisse/Contribution/V1",
+    "action": "http://www.rsvz-inasti.fgov.be/schemas/Sequoia/WS/SelfEmployed/Nisse/Contribution/V1/NisseSelfEmployedContributionService/IsAlive",
+    "bindingtype": "customBinding",
+    "bindingname": "textMessageEncodingConfiguration",
+    "host": "B2B-Proxy",
+    "type": "IsAlive"
+  },
+  {
+    "name": "NisseSelfEmployedAffiliationService",
+    "address": "SeqProxy/NisseSelfEmployedAffiliation/NisseSelfEmployedAffiliationService.svc/arza",
+    "namespace": "http://www.rsvz-inasti.fgov.be/schemas/Sequoia/WS/SelfEmployed/Nisse/Affiliation/V1",
+    "action": "http://www.rsvz-inasti.fgov.be/schemas/Sequoia/WS/SelfEmployed/Nisse/Affiliation/V1/NisseSelfEmployedAffiliationService/IsAlive",
+    "bindingtype": "customBinding",
+    "bindingname": "textMessageEncodingConfiguration",
+    "host": "B2B-Proxy",
+    "type": "IsAlive"
+  },
+  {
+    "name": "BusinessSelfEmployedAcquittalService",
+    "address": "SeqBusiness/NisseSelfEmployedAcquittal/BusinessSelfEmployedAcquittalService.svc",
+    "namespace": "http://tempuri.org/",
+    "action": "http://tempuri.org/IDequeueService/IsAlive",
+    "bindingtype": "netTcpBinding",
+    "bindingname": "B2BSupportBinding",
+    "host": "B2B-Business",
+    "type": "IsAlive"
+  },
+  {
+    "name": "BusinessSelfEmployedAcquittalService-ServiceBus",
+    "address": "SeqBusiness/NisseSelfEmployedAcquittal/BusinessSelfEmployedAcquittalService.svc",
+    "namespace": "http://tempuri.org/",
+    "action": "http://tempuri.org/IDequeueService/GetProcesses",
+    "bindingtype": "netTcpBinding",
+    "bindingname": "B2BSupportBinding",
+    "host": "B2B-Business",
+    "type": "GetProcesses"
+  },
+  {
+    "name": "BusinessSelfEmployedIncomesService",
+    "address": "SeqBusiness/NisseSelfEmployedIncomes/BusinessSelfEmployedIncomesService.svc",
+    "namespace": "http://tempuri.org/",
+    "action": "http://tempuri.org/IDequeueService/IsAlive",
+    "bindingtype": "netTcpBinding",
+    "bindingname": "B2BSupportBinding",
+    "host": "B2B-Business",
+    "type": "IsAlive"
+  },
+  {
+    "name": "BusinessSelfEmployedIncomesService-ServiceBus",
+    "address": "SeqBusiness/NisseSelfEmployedIncomes/BusinessSelfEmployedIncomesService.svc",
+    "namespace": "http://tempuri.org/",
+    "action": "http://tempuri.org/IDequeueService/GetProcesses",
+    "bindingtype": "netTcpBinding",
+    "bindingname": "B2BSupportBinding",
+    "host": "B2B-Business",
+    "type": "GetProcesses"
+  },
+  {
+    "name": "BusinessSelfEmployedContributionService",
+    "address": "SeqBusiness/NisseSelfEmployedContribution/BusinessSelfEmployedContributionService.svc",
+    "namespace": "http://tempuri.org/",
+    "action": "http://tempuri.org/IDequeueService/IsAlive",
+    "bindingtype": "netTcpBinding",
+    "bindingname": "B2BSupportBinding",
+    "host": "B2B-Business",
+    "type": "IsAlive"
+  },
+  {
+    "name": "BusinessSelfEmployedContributionService-ServiceBus",
+    "address": "SeqBusiness/NisseSelfEmployedContribution/BusinessSelfEmployedContributionService.svc",
+    "namespace": "http://tempuri.org/",
+    "action": "http://tempuri.org/IDequeueService/GetProcesses",
+    "bindingtype": "netTcpBinding",
+    "bindingname": "B2BSupportBinding",
+    "host": "B2B-Business",
+    "type": "GetProcesses"
+  },
+  {
+    "name": "BusinessSelfEmployedAffiliationService",
+    "address": "SeqBusiness/NisseSelfEmployedAffiliation/BusinessSelfEmployedAffiliationService.svc",
+    "namespace": "http://tempuri.org/",
+    "action": "http://tempuri.org/IDequeueService/IsAlive",
+    "bindingtype": "netTcpBinding",
+    "bindingname": "B2BSupportBinding",
+    "host": "B2B-Business",
+    "type": "IsAlive"
+  },
+  {
+    "name": "BusinessSelfEmployedAffiliationService-ServiceBus",
+    "address": "SeqBusiness/NisseSelfEmployedAffiliation/BusinessSelfEmployedAffiliationService.svc",
+    "namespace": "http://tempuri.org/",
+    "action": "http://tempuri.org/IDequeueService/GetProcesses",
+    "bindingtype": "netTcpBinding",
+    "bindingname": "B2BSupportBinding",
+    "host": "B2B-Business",
+    "type": "GetProcesses"
+  },
+  {
+    "name": "BusinessSelfEmployedInformationService",
+    "address": "SeqBusiness/NisseSelfEmployedInformation/BusinessSelfEmployedInformationService.svc",
+    "namespace": "http://tempuri.org/",
+    "action": "http://tempuri.org/IDequeueService/IsAlive",
+    "bindingtype": "netTcpBinding",
+    "bindingname": "B2BSupportBinding",
+    "host": "B2B-Business",
+    "type": "IsAlive"
+  },
+  {
+    "name": "BusinessSelfEmployedInformationService-ServiceBus",
+    "address": "SeqBusiness/NisseSelfEmployedInformation/BusinessSelfEmployedInformationService.svc",
+    "namespace": "http://tempuri.org/",
+    "action": "http://tempuri.org/IDequeueService/GetProcesses",
+    "bindingtype": "netTcpBinding",
+    "bindingname": "B2BSupportBinding",
+    "host": "B2B-Business",
+    "type": "GetProcesses"
+  },
+  {
+    "name": "GatewaySelfEmployedAcquittalService",
+    "address": "SeqGateway/SelfEmployedAcquittal/GatewaySelfEmployedAcquittalService.svc",
+    "namespace": "http://www.rsvz-inasti.fgov.be/schemas/Sequoia/WS/SelfEmployed/Gateway/Acquittal/V1",
+    "action": "http://www.rsvz-inasti.fgov.be/schemas/Sequoia/WS/SelfEmployed/Gateway/Acquittal/V1/GatewaySelfEmployedAcquittalService/IsAlive",
+    "bindingtype": "netTcpBinding",
+    "bindingname": "B2BSupportBinding",
+    "host": "B2B-Gateway",
+    "type": "IsAlive"
+  },
+  {
+    "name": "GatewaySelfEmployedIncomesService",
+    "address": "SeqGateway/SelfEmployedIncomes/GatewaySelfEmployedIncomesService.svc",
+    "namespace": "http://www.rsvz-inasti.fgov.be/schemas/Sequoia/WS/SelfEmployed/Gateway/Incomes/V1",
+    "action": "http://www.rsvz-inasti.fgov.be/schemas/Sequoia/WS/SelfEmployed/Gateway/Incomes/V1/GatewaySelfEmployedIncomesService/IsAlive",
+    "bindingtype": "netTcpBinding",
+    "bindingname": "B2BGatewayBinding",
+    "host": "B2B-Gateway",
+    "type": "IsAlive"
+  },
+  {
+    "name": "GatewaySelfEmployedContributionService",
+    "address": "SeqGateway/SelfEmployedContribution/GatewaySelfEmployedContributionService.svc/arza",
+    "namespace": "http://www.rsvz-inasti.fgov.be/schemas/Sequoia/WS/SelfEmployed/Gateway/Contribution/V1",
+    "action": "http://www.rsvz-inasti.fgov.be/schemas/Sequoia/WS/SelfEmployed/Gateway/Contribution/V1/GatewaySelfEmployedContributionService/IsAlive",
+    "bindingtype": "netTcpBinding",
+    "bindingname": "B2BGatewayBinding",
+    "host": "B2B-Gateway",
+    "type": "IsAlive"
+  },
+  {
+    "name": "GatewaySelfEmployedAffiliationService",
+    "address": "SeqGateway/SelfEmployedAffiliation/GatewaySelfEmployedAffiliationService.svc/arza",
+    "namespace": "http://www.rsvz-inasti.fgov.be/schemas/Sequoia/WS/SelfEmployed/Gateway/Affiliation/V1",
+    "action": "http://www.rsvz-inasti.fgov.be/schemas/Sequoia/WS/SelfEmployed/Gateway/Affiliation/V1/GatewaySelfEmployedAffiliationService/IsAlive",
+    "bindingtype": "netTcpBinding",
+    "bindingname": "B2BGatewayBinding",
+    "host": "B2B-Gateway",
+    "type": "IsAlive"
+  },
+  {
+    "name": "GatewaySelfEmployedInformationService",
+    "address": "SeqGateway/SelfEmployedInformation/GatewaySelfEmployedInformationService.svc/arza",
+    "namespace": "http://www.rsvz-inasti.fgov.be/schemas/Sequoia/WS/SelfEmployed/Gateway/Information/V1",
+    "action": "http://www.rsvz-inasti.fgov.be/schemas/Sequoia/WS/SelfEmployed/Gateway/Information/V1/GatewaySelfEmployedInformationService/IsAlive",
+    "bindingtype": "netTcpBinding",
+    "bindingname": "B2BGatewayBinding",
+    "host": "B2B-Gateway",
+    "type": "IsAlive"
+  },
+  {
+    "name": "DispatcherSelfEmployedAcquittalService",
+    "namespace": "http://tempuri.org/",
+    "address": "SeqDispatcher/SelfEmployedAcquittal/DispatcherSelfEmployedAcquittalService.svc",
+    "action": "http://tempuri.org/IDequeueService/IsAlive",
+    "bindingtype": "netTcpBinding",
+    "bindingname": "B2BSupportBinding",
+    "host": "B2B-Dispatcher",
+    "type": "IsAlive"
+  },
+  {
+    "name": "DispatcherSelfEmployedAcquittalService-ServiceBus",
+    "namespace": "http://tempuri.org/",
+    "address": "SeqDispatcher/SelfEmployedAcquittal/DispatcherSelfEmployedAcquittalService.svc",
+    "action": "http://tempuri.org/IDequeueService/GetProcesses",
+    "bindingtype": "netTcpBinding",
+    "bindingname": "B2BSupportBinding",
+    "host": "B2B-Dispatcher",
+    "type": "GetProcesses"
+  },
+  {
+    "name": "DispatcherSelfEmployedIncomesService",
+    "namespace": "http://tempuri.org/",
+    "address": "SeqDispatcher/SelfEmployedIncomes/DispatcherSelfEmployedIncomesService.svc",
+    "action": "http://tempuri.org/IDequeueService/IsAlive",
+    "bindingtype": "netTcpBinding",
+    "bindingname": "B2BSupportBinding",
+    "host": "B2B-Dispatcher",
+    "type": "IsAlive"
+  },
+  {
+    "name": "DispatcherSelfEmployedIncomesService-ServiceBus",
+    "namespace": "http://tempuri.org/",
+    "address": "SeqDispatcher/SelfEmployedIncomes/DispatcherSelfEmployedIncomesService.svc",
+    "action": "http://tempuri.org/IDequeueService/GetProcesses",
+    "bindingtype": "netTcpBinding",
+    "bindingname": "B2BSupportBinding",
+    "host": "B2B-Dispatcher",
+    "type": "GetProcesses"
+  },
+  {
+    "name": "DispatcherSelfEmployedContributionService",
+    "namespace": "http://tempuri.org/",
+    "address": "SeqDispatcher/SelfEmployedContribution/DispatcherSelfEmployedContributionService.svc",
+    "action": "http://tempuri.org/IDequeueService/IsAlive",
+    "bindingtype": "netTcpBinding",
+    "bindingname": "B2BSupportBinding",
+    "host": "B2B-Dispatcher",
+    "type": "IsAlive"
+  },
+  {
+    "name": "DispatcherSelfEmployedContributionService-ServiceBus",
+    "namespace": "http://tempuri.org/",
+    "address": "SeqDispatcher/SelfEmployedContribution/DispatcherSelfEmployedContributionService.svc",
+    "action": "http://tempuri.org/IDequeueService/GetProcesses",
+    "bindingtype": "netTcpBinding",
+    "bindingname": "B2BSupportBinding",
+    "host": "B2B-Dispatcher",
+    "type": "GetProcesses"
+  },
+  {
+    "name": "DispatcherSelfEmployedAffiliationService",
+    "namespace": "http://tempuri.org/",
+    "address": "SeqDispatcher/SelfEmployedAffiliation/DispatcherSelfEmployedAffiliationService.svc",
+    "action": "http://tempuri.org/IDequeueService/IsAlive",
+    "bindingtype": "netTcpBinding",
+    "bindingname": "B2BSupportBinding",
+    "host": "B2B-Dispatcher",
+    "type": "IsAlive"
+  },
+  {
+    "name": "DispatcherSelfEmployedAffiliationService-ServiceBus",
+    "namespace": "http://tempuri.org/",
+    "address": "SeqDispatcher/SelfEmployedAffiliation/DispatcherSelfEmployedAffiliationService.svc",
+    "action": "http://tempuri.org/IDequeueService/GetProcesses",
+    "bindingtype": "netTcpBinding",
+    "bindingname": "B2BSupportBinding",
+    "host": "B2B-Dispatcher",
+    "type": "GetProcesses"
+  },
+  {
+    "name": "DispatcherSelfEmployedInformationService",
+    "namespace": "http://tempuri.org/",
+    "address": "SeqDispatcher/SelfEmployedInformation/DispatcherSelfEmployedInformationService.svc",
+    "action": "http://tempuri.org/IDequeueService/IsAlive",
+    "bindingtype": "netTcpBinding",
+    "bindingname": "B2BSupportBinding",
+    "host": "B2B-Dispatcher",
+    "type": "IsAlive"
+  },
+  {
+    "name": "DispatcherSelfEmployedInformationService-ServiceBus",
+    "namespace": "http://tempuri.org/",
+    "address": "SeqDispatcher/SelfEmployedInformation/DispatcherSelfEmployedInformationService.svc",
+    "action": "http://tempuri.org/IDequeueService/GetProcesses",
+    "bindingtype": "netTcpBinding",
+    "bindingname": "B2BSupportBinding",
+    "host": "B2B-Dispatcher",
+    "type": "GetProcesses"
+  }
+]

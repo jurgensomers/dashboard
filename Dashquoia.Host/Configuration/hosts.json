@@ -1,0 +1,140 @@
+﻿[
+  {
+    "name": "B2B-Proxy",
+    "environment": "900",
+    "address": "b2b-dev.rsvzinasti.be:443"
+  },
+  {
+    "name": "B2B-Business",
+    "environment": "900",
+    "address": "brusrvsqb401.rsvzinasti.be",
+    "identity": "SYS_400_SEQ_B2B_BUS@rsvzinasti.be"
+  },
+  {
+    "name": "B2B-Gateway",
+    "environment": "900",
+    "address": "brusrvsqb401.rsvzinasti.be",
+    "identity": "SYS_400_SEQ_B2B_BUS@rsvzinasti.be"
+  },
+  {
+    "name": "B2B-Dispatcher",
+    "environment": "900",
+    "address": "brusrvsqb401.rsvzinasti.be",
+    "identity": "SYS_400_SEQ_B2B_Disp@rsvzinasti.be"
+  },
+  {
+    "name": "B2B-Proxy",
+    "environment": "850",
+    "address": "brusrvsqb351:443"
+  },
+  {
+    "name": "B2B-Business",
+    "environment": "850",
+    "address": "brusrvsqb351.rsvzinasti.be",
+    "identity": "SYS_350_SEQ_B2B_BUS@rsvzinasti.be"
+  },
+  {
+    "name": "B2B-Gateway",
+    "environment": "850",
+    "address": "brusrvsqb351.rsvzinasti.be",
+    "identity": "SYS_350_SEQ_B2B_BUS@rsvzinasti.be"
+  },
+  {
+    "name": "B2B-Dispatcher",
+    "environment": "850",
+    "address": "brusrvsqb351.rsvzinasti.be",
+    "identity": "SYS_350_SEQ_B2B_DISP@rsvzinasti.be"
+  },
+  {
+    "name": "B2B-Proxy",
+    "environment": "800",
+    "address": "seqb2b-tst.rsvz-inasti.fgov.be:443"
+  },
+  {
+    "name": "B2B-Business",
+    "environment": "800",
+    "address": "brusrvsqb301.rsvzinasti.be",
+    "identity": "SYS_800_SEQ_B2B_BUS@rsvzinasti.be"
+  },
+  {
+    "name": "B2B-Gateway",
+    "environment": "800",
+    "address": "brusrvsqb301.rsvzinasti.be",
+    "identity": "SYS_800_SEQ_B2B_BUS@rsvzinasti.be"
+  },
+  {
+    "name": "B2B-Dispatcher",
+    "environment": "800",
+    "address": "brusrvsqb301.rsvzinasti.be",
+    "identity": "SYS_800_SEQ_B2B_DISP@rsvzinasti.be"
+  },
+  {
+    "name": "B2B-Proxy",
+    "environment": "400",
+    "address": "brusrvsqb401.rsvzinasti.be:443"
+  },
+  {
+    "name": "B2B-Business",
+    "environment": "400",
+    "address": "brusrvsqb401.rsvzinasti.be",
+    "identity": "SYS_400_SEQ_B2B_BUS@rsvzinasti.be"
+  },
+  {
+    "name": "B2B-Gateway",
+    "environment": "400",
+    "address": "brusrvsqb401.rsvzinasti.be",
+    "identity": "SYS_400_SEQ_B2B_BUS@rsvzinasti.be"
+  },
+  {
+    "name": "B2B-Dispatcher",
+    "environment": "400",
+    "address": "brusrvsqb401.rsvzinasti.be",
+    "identity": "SYS_400_SEQ_B2B_DISP@rsvzinasti.be"
+  },
+  {
+    "name": "B2B-Proxy",
+    "environment": "350",
+    "address": "brusrvsqb351.rsvzinasti.be:443"
+  },
+  {
+    "name": "B2B-Business",
+    "environment": "350",
+    "address": "brusrvsqb351.rsvzinasti.be",
+    "identity": "SYS_350_SEQ_B2B_BUS@rsvzinasti.be"
+  },
+  {
+    "name": "B2B-Gateway",
+    "environment": "350",
+    "address": "brusrvsqb351.rsvzinasti.be",
+    "identity": "SYS_350_SEQ_B2B_BUS@rsvzinasti.be"
+  },
+  {
+    "name": "B2B-Dispatcher",
+    "environment": "350",
+    "address": "brusrvsqb351.rsvzinasti.be",
+    "identity": "SYS_350_SEQ_B2B_DISP@rsvzinasti.be"
+  },
+  {
+    "name": "B2B-Proxy",
+    "environment": "300",
+    "address": "seqB2B-tst.rsvz-inasti.fgov.be:443"
+  },
+  {
+    "name": "B2B-Business",
+    "environment": "300",
+    "address": "brusrvsqb301.rsvzinasti.be",
+    "identity": "SYS_300_SEQ_B2B_BUS@rsvzinasti.be" 
+  },
+  {
+    "name": "B2B-Gateway",
+    "environment": "300",
+    "address": "brusrvsqb301.rsvzinasti.be",
+    "identity": "SYS_300_SEQ_B2B_BUS@rsvzinasti.be" 
+  },
+  {
+    "name": "B2B-Dispatcher",
+    "environment": "300",
+    "address": "brusrvsqb301.rsvzinasti.be",
+    "identity": "SYS_300_SEQ_B2B_DISP@rsvzinasti.be" 
+  }
+]
