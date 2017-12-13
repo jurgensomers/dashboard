@@ -27,7 +27,7 @@ namespace Dashquoia.Api.Managers
             {
                 _serviceTimer?.Stop();
 
-                _onObserve = onObserve; 
+                _onObserve = onObserve;
                 _serviceTimer = new Timer(AppSettings.RefreshRate);
                 _serviceTimer.Elapsed += async (sender, e) => await HandleServiceTimer();
                 _serviceTimer.AutoReset = true;
@@ -41,7 +41,7 @@ namespace Dashquoia.Api.Managers
             if (_tfsTimer == null)
             {
                 _tfsTimer?.Stop();
-                 
+
                 _onObserveTfs = onObserveTfs;
                 _tfsTimer = new Timer(AppSettings.RefreshRate);
                 _tfsTimer.Elapsed += async (sender, e) => await HandleTfsTimer();
@@ -66,7 +66,8 @@ namespace Dashquoia.Api.Managers
                     await Task.Factory.StartNew(() =>
                     {
                         var results = _onObserve();
-                        _cacheManager.Store(results); 
+                        if (results != null)
+                            _cacheManager.Store(results);
                     });
                 }
             }
@@ -85,15 +86,14 @@ namespace Dashquoia.Api.Managers
                 if (locked == null)
                 {
                     await Task.Factory.StartNew(() =>
-                    { 
-
+                    {
                         var tfs = _onObserveTfs();
-                        _cacheManager.Store(tfs);
+                        if (tfs != null)
+                            _cacheManager.Store(tfs);
                     });
                 }
             }
         }
-
 
         public static bool IsActive()
         {

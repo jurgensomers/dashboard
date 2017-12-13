@@ -47,7 +47,7 @@ namespace Dashquoia.Api.Managers
             }
             catch (Exception e)
             {
-                _cacheManager.ClearServices(); 
+                _cacheManager.ClearServices();
                 Log.Logger.Fatal(e, String.Empty);
                 return new GenericResults();
             }
@@ -74,20 +74,23 @@ namespace Dashquoia.Api.Managers
             return null;
         }
 
+        private static int _break = 2;
+
         private GenericResults LoadAsync(IList<Setting> settings)
         {
-            Log.Logger.Information("Getting states...");
-            var result = new GenericResults() { Date = DateTime.Now };
-            //#if DEBUG
-            //            foreach (var setting in settings)
-            //            {
-            //                Execute(setting, result);
-            //            }
-            //#else
-            Parallel.ForEach(settings, test => Execute(test, result));
-            //#endif
-            Log.Logger.Information("All states retreived");
-            return result;
+            try
+            {
+                Log.Logger.Information("Getting states...");
+                var result = new GenericResults() { Date = DateTime.Now };
+                Parallel.ForEach(settings, test => Execute(test, result));
+                Log.Logger.Information("All states retreived");
+                return result;
+            }
+            catch
+            {
+                Log.Logger.Error("Something went wrong...");
+            }
+            return null;
         }
 
         private void Execute(Setting setting, GenericResults results)
